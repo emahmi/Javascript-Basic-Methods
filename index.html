@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+    <h2 class="header">This is a header</h2>
+    <p> DUMMY PARAGRAPH </p>
+    <div>
+        <ol class="list">
+            <li>Item 1</li>
+            <li>
+                Item 2
+                <ul>
+                    <li class="nest">Nested item 1</li>
+                    <li class="nest">Nested item 2</li>
+                    <li class="nest">Nested item 3</li>
+                </ul>
+            </li>
+            <li>Item 3</li>
+        </ol>
+
+        <!--<div id="box"></div><br />-->
+        <img src="https://cdn3.wpbeginner.com/wp-content/uploads/2020/03/ultimate-small-business-resource-coronavirus.png" width="225" height="100"><br /><br />
+        <span id="span1" style=" color: crimson"></span>
+        <span id="span2" style=" color: crimson"></span>
+        <span id="span3" style=" color: forestgreen"></span>
+        <span id="span4" style=" color: forestgreen"></span>
+        <div id="loadDiv"></div>
+        <div id="getDiv"></div>
+        <div id="ajaxDiv"></div>
+    </div>
+
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+    <button id="append">Append</button>
+    <button id="appendTo">AppendTo</button>
+    <button id="prepend">Prepend</button>
+    <button id="prependTo">PrependTo</button>
+    <button id="each">Each Loop</button> <br /><br />
+    <button id="parent">Parent</button>
+    <button id="children">Children</button>
+    <button id="closest">Closest</button>
+    <button id="dimensions">Dimensions</button>
+    <button id="attr">Attribute</button>
+    <button id="setdata">Set data</button>
+    <button id="getdata">Get data</button><br /><br />
+    <button id="map">Map</button>
+    <button id="grep">Grep</button>
+    <button id="load">Load</button>
+    <button id="get">Get</button>
+    <button id="ajax">AJAX</button>
+    <button id="toggle">Toggle</button>
+    <button id="offset">Offset</button>
+    <button id="filter">Filter list</button>
+    <button id="setTimeout">SetTimeout</button>
+    <button id="setInterval" onclick="Function()"> SetInterval</button>
+
+
+
+    <div id="data"></div>
+
+
+</body>
+</html>
